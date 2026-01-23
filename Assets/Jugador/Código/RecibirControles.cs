@@ -46,7 +46,6 @@ public class RecibirControles : MonoBehaviour
     void DetectarEjes()
     {
         Vector2 ejes = Movimiento.ReadValue<Vector2>();
-        Debug.Log(ejes);
         mediador.EnviarEjes(ejes.x, ejes.y);
     }
     
