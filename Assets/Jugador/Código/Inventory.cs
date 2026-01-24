@@ -25,4 +25,5 @@ public class Inventory : MonoBehaviour
         Keys += value;
         Keys = Mathf.Clamp(Keys, 0, KeyLimit);
     }
+    
 }

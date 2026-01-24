@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5478639609926916584}
-  - component: {fileID: 6989506457643319442}
+  - component: {fileID: 8130645638437902982}
   - component: {fileID: 3752659526407294935}
   m_Layer: 0
-  m_Name: DoubleBomb
+  m_Name: Bomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,7 +34,7 @@ Transform:
   - {fileID: 1695735856998512263}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6989506457643319442
+--- !u!114 &8130645638437902982
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,11 +43,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4793577631929075624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c992cc740fde8641aefbaa15f664709, type: 3}
+  m_Script: {fileID: 11500000, guid: 7795f7a442d3982419887b4a487ed483, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoubleBomb
+  m_EditorClassIdentifier: Assembly-CSharp::Bomb
   Player: {fileID: 0}
   obtainable: 1
+  rewardValue: 1
 --- !u!135 &3752659526407294935
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -135,7 +136,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e3d876e285eeb084fa80c4b69f1f7072, type: 2}
+  - {fileID: 2100000, guid: 48d242efd2afe714cab3e80939ee65bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -15,7 +15,8 @@ public abstract class Pickup : MonoBehaviour
     public Mediador Player;
     public bool obtainable = true;
 
-    protected abstract PickupEnum pickupEnum { get; }
+    public int rewardValue = 1;
+    protected abstract PickupEnum pickupEnum { get;}
     void Start()
     {
         

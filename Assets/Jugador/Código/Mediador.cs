@@ -56,4 +56,8 @@ public class Mediador : MonoBehaviour
         fisicas.RecibirEjes(h, v);
     }
 
+    public void AddCoin(int value)
+    {
+        inventory.AddCoin(value);
+    }
 }
