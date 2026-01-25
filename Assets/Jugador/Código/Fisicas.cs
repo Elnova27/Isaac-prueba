@@ -19,7 +19,7 @@ public class Fisicas : MonoBehaviour
     public float animThreshold = 0;
     public float multiplicadorVelocidadInterno;
 
-    public MovementState movementState;
+    //public MovementState movementState;
 
     public void Configuración(Mediador mediadorRecibido, CharacterController characterControllerMediador)
     {
@@ -72,7 +72,11 @@ public class Fisicas : MonoBehaviour
             
         }
 
-        if(vActual < animThreshold &&  vActual > -animThreshold  && hActual < animThreshold &&  hActual > -animThreshold) mediador.PlayerMovement(MovementState.Idle, 0);
+        if (Mathf.Abs(vActual) < animThreshold && Mathf.Abs(hActual) < animThreshold)
+        {   
+            mediador.PlayerMovement(MovementState.Idle, 0);
+        }
+
     }
 }
 

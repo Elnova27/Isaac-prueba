@@ -127,6 +127,226 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
+        y: 32
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef35e70c76498b742b38b46df8f2e1a7
+      internalID: -1162374266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuerpoIsaac_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 32
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3cc2fd20215ec4e89897d082d2084f
+      internalID: 1739030247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuerpoIsaac_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 32
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a22507bddb98f47a65cd67a8dfad72
+      internalID: 1714353527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuerpoIsaac_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 32
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66cec7291ab75d4cb870f2445cbee00
+      internalID: -723424923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuerpoIsaac_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 32
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebfd6eab75d30c46ac732485b46a580
+      internalID: -108071962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuerpoIsaac_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 32
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3a28d540f466d4fbf6a190288b1941
+      internalID: 1738661670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuerpoIsaac_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 32
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819a756850722c049bd27611a0e19ec7
+      internalID: 1987098652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuerpoIsaac_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 32
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f83a131518d33746b9ab656e19a1a04
+      internalID: 725854126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuerpoIsaac_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 32
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b881c8bec9a864faf6b994aa9ed64d
+      internalID: -1936020571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuerpoIsaac_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 32
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c0f653517574341a73ed0f63886f5d
+      internalID: 392473399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuerpoIsaac_10
+      rect:
+        serializedVersion: 2
+        x: 1
         y: 16
         width: 20
         height: 16
@@ -138,14 +358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c90c13161ca1cf04a9f56abf13cbe44d
-      internalID: -1162374266
+      spriteID: 6ef3ce9a045ebc84c90f559bd617ccb5
+      internalID: 225713643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_1
+      name: CuerpoIsaac_11
       rect:
         serializedVersion: 2
         x: 33
@@ -160,14 +380,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dca4fc4bacf46434d916029e5f31bbde
-      internalID: 1739030247
+      spriteID: 9465093a1d92e2f42970ab4935dad20e
+      internalID: -449034527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_2
+      name: CuerpoIsaac_12
       rect:
         serializedVersion: 2
         x: 65
@@ -182,14 +402,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4606cf323a9f45a469310e5ee4b0ec75
-      internalID: 1714353527
+      spriteID: 48049f7a703ecb841bb7dc3b8de54a67
+      internalID: -778424523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_3
+      name: CuerpoIsaac_13
       rect:
         serializedVersion: 2
         x: 97
@@ -204,14 +424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63d61097c8560e74aadeb3805cded5cb
-      internalID: -723424923
+      spriteID: 552443867a7f7ca40b0dfdcd17718fcf
+      internalID: -807295233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_4
+      name: CuerpoIsaac_14
       rect:
         serializedVersion: 2
         x: 129
@@ -226,14 +446,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52519545f78e49145ba4aa5b1fa7453f
-      internalID: -108071962
+      spriteID: d591e7534e4f1bb428d28a2781d616bb
+      internalID: -919422746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_5
+      name: CuerpoIsaac_15
       rect:
         serializedVersion: 2
         x: 161
@@ -248,14 +468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6198a5ceb22d14940960b464b851c686
-      internalID: 1738661670
+      spriteID: d4876296044aa804e9a79f6aeaea2160
+      internalID: 1786091237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_6
+      name: CuerpoIsaac_16
       rect:
         serializedVersion: 2
         x: 193
@@ -270,14 +490,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f22474245e85b44c81faa83c87af8ef
-      internalID: 1987098652
+      spriteID: 7454769d66117664b9a259e21a6a79ff
+      internalID: 1142497546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_7
+      name: CuerpoIsaac_17
       rect:
         serializedVersion: 2
         x: 225
@@ -292,14 +512,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8d6435a6c690c343b0b054a46c2a1eb
-      internalID: 725854126
+      spriteID: 2199e8cff7946ab43ab2d190a40cf1dd
+      internalID: -837847065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_8
+      name: CuerpoIsaac_18
       rect:
         serializedVersion: 2
         x: 257
@@ -314,14 +534,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57c9b86fe2132db4fb6822de955a85ec
-      internalID: -1936020571
+      spriteID: 75660c0ee40d51e46b39c40edc5a28ce
+      internalID: -490530214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_9
+      name: CuerpoIsaac_19
       rect:
         serializedVersion: 2
         x: 289
@@ -336,14 +556,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37025f015472c3243951476929bae13c
-      internalID: 392473399
+      spriteID: ac7356b4df394414b90c13881832ccd6
+      internalID: -980334051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_10
+      name: CuerpoIsaac_20
       rect:
         serializedVersion: 2
         x: 1
@@ -358,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0bae2bfcd76ed5409c0948c5ba4146b
-      internalID: 225713643
+      spriteID: 78b8ef69d70be0f44a9f1f75d7b1580a
+      internalID: 1640849734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_11
+      name: CuerpoIsaac_21
       rect:
         serializedVersion: 2
         x: 33
@@ -380,14 +600,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac86527f401b30b4bbe391920da8920f
-      internalID: -449034527
+      spriteID: 7be3613b405114a4ab4507126142dd15
+      internalID: 1041702899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_12
+      name: CuerpoIsaac_22
       rect:
         serializedVersion: 2
         x: 65
@@ -402,14 +622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b498265bce00d854fb0c7b67d28b51d6
-      internalID: -778424523
+      spriteID: 2e1b05f236bda464996eb77ceff376e7
+      internalID: -2073595566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_13
+      name: CuerpoIsaac_23
       rect:
         serializedVersion: 2
         x: 97
@@ -424,14 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 225a23548912e6345b4f1d70cb5f49bc
-      internalID: -807295233
+      spriteID: ce5e9dc7d2b25ea419e69370f16a9610
+      internalID: -1566536189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_14
+      name: CuerpoIsaac_24
       rect:
         serializedVersion: 2
         x: 129
@@ -446,14 +666,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 649c3ff15701a9c4f88a28df61a8c53c
-      internalID: -919422746
+      spriteID: 68c8aaeee34a8fa4e8c9a2ed24d94d9e
+      internalID: 425429220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_15
+      name: CuerpoIsaac_25
       rect:
         serializedVersion: 2
         x: 161
@@ -468,14 +688,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e04ec437a217a3d4faa4ea38208b4c7d
-      internalID: 1786091237
+      spriteID: 31e2adb1935815b44ae91a43c03469b1
+      internalID: 1652786214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_16
+      name: CuerpoIsaac_26
       rect:
         serializedVersion: 2
         x: 193
@@ -490,14 +710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc1d90f2d4607c24eb2ae3d32a8bb4f1
-      internalID: 1142497546
+      spriteID: 0f7b31d7a29e9ae41913df482fa50569
+      internalID: 1943937941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_17
+      name: CuerpoIsaac_27
       rect:
         serializedVersion: 2
         x: 225
@@ -512,14 +732,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea73fbda894a4e743b8401ba6e07c93e
-      internalID: -837847065
+      spriteID: fc1cf09bd75f89c41a6d0b815e68c7cc
+      internalID: -1647706498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_18
+      name: CuerpoIsaac_28
       rect:
         serializedVersion: 2
         x: 257
@@ -534,14 +754,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2f51672878e13041a0e27e3d408b9b0
-      internalID: -490530214
+      spriteID: f185dba9eb0705c45abed869210151e1
+      internalID: 971047150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CuerpoIsaac_19
+      name: CuerpoIsaac_29
       rect:
         serializedVersion: 2
         x: 289
@@ -556,8 +776,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93dd8b9e0351dc348be9fa308cd723bd
-      internalID: -980334051
+      spriteID: 61f3e661c81e4ec408db2f88f9931e91
+      internalID: 1185927293
       vertices: []
       indices: 
       edges: []
@@ -593,6 +813,16 @@ TextureImporter:
       CuerpoIsaac_18: -490530214
       CuerpoIsaac_19: -980334051
       CuerpoIsaac_2: 1714353527
+      CuerpoIsaac_20: 1640849734
+      CuerpoIsaac_21: 1041702899
+      CuerpoIsaac_22: -2073595566
+      CuerpoIsaac_23: -1566536189
+      CuerpoIsaac_24: 425429220
+      CuerpoIsaac_25: 1652786214
+      CuerpoIsaac_26: 1943937941
+      CuerpoIsaac_27: -1647706498
+      CuerpoIsaac_28: 971047150
+      CuerpoIsaac_29: 1185927293
       CuerpoIsaac_3: -723424923
       CuerpoIsaac_4: -108071962
       CuerpoIsaac_5: 1738661670

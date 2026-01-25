@@ -3,65 +3,45 @@ using UnityEngine;
 public class Animation : MonoBehaviour
 {
     public Mediador mediator;
-    public int valuee;
-    public Animator animator;
-    public MovementState movementState;
+
+    [Header("Referencias")]
+    
+    public Animator animatorBody;
+    public Animator animatorHead;
     public SpriteRenderer spriteRenderer;
+
+    [Header("Estado")]
+    public MovementState movementState;
+    public int valuee;
+
     public void Configuration(Mediador mediatorReceived)
     {
         mediator = mediatorReceived;
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void PlayerMovement(MovementState movementState, int value)
-    {   
+    {
         this.movementState = movementState;
         valuee = value;
+
+        // Dirección limpia: -1, 0 o 1
+
         switch (movementState)
         {
             case MovementState.Idle:
-                animator.SetInteger("Direction", 0);
-                spriteRenderer.flipX = false;
+                animatorBody.SetInteger("Direction", 0);
+                animatorHead.SetInteger("Direction", 0);
                 break;
 
             case MovementState.Walk:
-
-                switch (value)
-                {
-                    case 1:
-                        animator.SetInteger("Direction", value);
-                        break;
-
-                    case -1:
-                        animator.SetInteger("Direction", -value);
-                        spriteRenderer.flipX = true;
-                        break;
-                        
-                    case 2:
-                        animator.SetInteger("Direction", value);
-
-                        break;
-                    case -2:
-                        animator.SetInteger("Direction", -value);
-                        break;
-                }     
-
+                animatorBody.SetInteger("Direction", value);
+                animatorHead.SetInteger("Direction", value);
                 break;
 
             case MovementState.Air:
-                // lógica cuando camina
+                animatorBody.SetInteger("Direction", value);
+                animatorHead.SetInteger("Direction", 0);
                 break;
         }
-
     }
 }

@@ -496,7 +496,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432432459}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
@@ -847,7 +847,7 @@ Animator:
   m_GameObject: {fileID: 1056373908}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5a13f98153c47ea45af2dc0df3107baa, type: 2}
+  m_Controller: {fileID: 9100000, guid: 568483bf588ac504db1b8459cb81b5b0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1343,11 +1343,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Fisicas
   hActual: 0
   vActual: 0
-  suavizado: 10
+  suavizado: 8
   threshold: 0.0001
-  animThreshold: 0.1
+  animThreshold: 0.2
   multiplicadorVelocidadInterno: 5
-  movementState: 0
 --- !u!114 &1846221026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1507,7 +1506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mediador
   recibirControles: {fileID: 1846221026}
-  animation: {fileID: 1846221033}
+  animationCharacter: {fileID: 1846221033}
   health: {fileID: 1846221030}
   fisicas: {fileID: 1846221025}
   characterController: {fileID: 1846221023}
@@ -1619,10 +1618,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Animation
   mediator: {fileID: 0}
-  valuee: 0
-  animator: {fileID: 901397739}
-  movementState: 0
+  animatorBody: {fileID: 901397739}
+  animatorHead: {fileID: 1056373910}
   spriteRenderer: {fileID: 901397740}
+  movementState: 0
+  valuee: 0
 --- !u!1 &2013410473
 GameObject:
   m_ObjectHideFlags: 1
