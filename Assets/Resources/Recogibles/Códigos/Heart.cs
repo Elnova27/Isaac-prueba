@@ -5,7 +5,7 @@ public abstract class Heart : MonoBehaviour
     public int vidaActual;
     public int vidaMaxima;
     
-    protected abstract HeartEnum heartEnum { get; }
+    //protected abstract HeartEnum heartEnum { get; }
     protected bool Destruible;
 /*
     public void Initialize(int Heal)
