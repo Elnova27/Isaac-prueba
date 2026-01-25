@@ -4,6 +4,8 @@ public class Mediador : MonoBehaviour
 {
     public RecibirControles recibirControles;
     //---------------------------
+    public Animation animation;
+    //---------------------------
     public Health health;
     //---------------------------
     public Fisicas fisicas;
@@ -19,6 +21,7 @@ public class Mediador : MonoBehaviour
         health.Configuration(this);
         recibirControles.Configuración(this);
         fisicas.Configuración(this, characterController);
+        animation.Configuration(this);
     }
 
     void Update()
@@ -35,6 +38,12 @@ public class Mediador : MonoBehaviour
     {
         return(estadisticas.ConsultaVelocidad());
     }
+
+    public void PlayerMovement(MovementState movementState, int value)
+    {
+        animation.PlayerMovement(movementState, value);
+    }
+    
 
     public void AddBomb(int value)
     {

@@ -195,8 +195,13 @@ MonoBehaviour:
       - rid: 2062026793405382681
       - rid: 2062026793405382682
       - rid: 2062026793405382683
+<<<<<<< Updated upstream
       - rid: 3625623683288793088
       - rid: 3625623683288793089
+=======
+      - rid: 2062026888079212544
+      - rid: 2062026888079212545
+>>>>>>> Stashed changes
     m_RuntimeSettings:
       m_List: []
   renderingLayerNames:
@@ -688,7 +693,11 @@ MonoBehaviour:
         probeVolumeOffsetDebugShader: {fileID: 4800000, guid: db8bd7436dc2c5f4c92655307d198381, type: 3}
         probeSamplingDebugMesh: {fileID: -3555484719484374845, guid: 20be25aac4e22ee49a7db76fb3df6de2, type: 3}
         numbersDisplayTex: {fileID: 2800000, guid: 73fe53b428c5b3440b7e87ee830b608a, type: 3}
+<<<<<<< Updated upstream
     - rid: 3625623683288793088
+=======
+    - rid: 2062026888079212544
+>>>>>>> Stashed changes
       type: {class: RayTracingRenderPipelineResources, ns: UnityEngine.Rendering.UnifiedRayTracing, asm: Unity.UnifiedRayTracing.Runtime}
       data:
         m_Version: 1
@@ -701,7 +710,11 @@ MonoBehaviour:
         m_BuildHlbvh: {fileID: 7200000, guid: 2d70cd6be91bd7843a39a54b51c15b13, type: 3}
         m_RestructureBvh: {fileID: 7200000, guid: 56641cb88dcb31a4398a4997ef7a7a8c, type: 3}
         m_Scatter: {fileID: 7200000, guid: a2eaeefdac4637a44b734e85b7be9186, type: 3}
+<<<<<<< Updated upstream
     - rid: 3625623683288793089
+=======
+    - rid: 2062026888079212545
+>>>>>>> Stashed changes
       type: {class: ColorCheckerResources, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_ColorCheckerMaterial: {fileID: 2100000, guid: 7a1044256d39dba4aa777255550527bf, type: 2}
