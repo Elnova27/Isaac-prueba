@@ -1445,7 +1445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mediador
   recibirControles: {fileID: 1846221026}
-  vida: {fileID: 1846221029}
+  health: {fileID: 1846221030}
   fisicas: {fileID: 1846221025}
   characterController: {fileID: 1846221023}
   estadisticas: {fileID: 1846221024}
@@ -1480,8 +1480,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41272463e0d99a47b916e77dddab8e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Vida
-  heartList:
-  - {fileID: 0}
+  maxHearts: 6
+  currentHearts: 4
+  heartbarUI: {fileID: 0}
 --- !u!114 &1846221030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1494,7 +1495,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41272463e0d99a47b916e77dddab8e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Vida
-  heartList: []
+  maxHearts: 6
+  currentHearts: 4
+  heartbarUI: {fileID: 0}
 --- !u!114 &1846221031
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ public class Mediador : MonoBehaviour
 {
     public RecibirControles recibirControles;
     //---------------------------
-    public Vida vida;
+    public Health health;
     //---------------------------
     public Fisicas fisicas;
     public CharacterController characterController;
@@ -16,7 +16,7 @@ public class Mediador : MonoBehaviour
 
     void Start()
     {
-        vida.Configuración(this);
+        health.Configuration(this);
         recibirControles.Configuración(this);
         fisicas.Configuración(this, characterController);
     }
@@ -48,7 +48,7 @@ public class Mediador : MonoBehaviour
 
     public bool CanReceiveRedHeart()
     {
-        return(vida.CanReceiveRedHeart());
+        return(health.CanReceiveRedHeart());
     }
 
     public void EnviarEjes(float h, float v)
