@@ -1,0 +1,3 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="HeartHalf" style="background-image: resource(&quot;Interfaz/Hearts/HeartHalf&quot;); -unity-slice-type: sliced; width: 64px; height: 64px; margin-top: -4px; margin-right: -12px; margin-left: -4px; margin-bottom: -20px;"/>
+</ui:UXML>
