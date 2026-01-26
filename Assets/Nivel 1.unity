@@ -1450,7 +1450,6 @@ GameObject:
   - component: {fileID: 1846221024}
   - component: {fileID: 1846221029}
   - component: {fileID: 1846221031}
-  - component: {fileID: 1846221030}
   - component: {fileID: 1846221033}
   - component: {fileID: 1846221023}
   - component: {fileID: 1846221032}
@@ -1681,7 +1680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Mediador
   recibirControles: {fileID: 1846221026}
   animationCharacter: {fileID: 1846221033}
-  health: {fileID: 1846221030}
+  health: {fileID: 1846221029}
   fisicas: {fileID: 1846221025}
   characterController: {fileID: 1846221023}
   estadisticas: {fileID: 1846221024}
@@ -1725,27 +1724,6 @@ MonoBehaviour:
   heartEmptyTemplate: {fileID: 9197481963319205126, guid: 6f41687980606f746882305a637e6562, type: 3}
   heartSoulTemplate: {fileID: 9197481963319205126, guid: a21b73106819a4e45bbfa555913bfccf, type: 3}
   heartSoulHalfTemplate: {fileID: 9197481963319205126, guid: 8dc2c9a2fa478f443af773b9bc055f1a, type: 3}
---- !u!114 &1846221030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846221022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d41272463e0d99a47b916e77dddab8e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Vida
-  maxHearts: 6
-  currentHearts: 4
-  soulHearts: 0
-  healthbarUI: {fileID: 0}
-  heartFullTemplate: {fileID: 0}
-  heartHalfTemplate: {fileID: 0}
-  heartEmptyTemplate: {fileID: 0}
-  heartSoulTemplate: {fileID: 0}
-  heartSoulHalfTemplate: {fileID: 0}
 --- !u!114 &1846221031
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class Mediador : MonoBehaviour
     public Animation animationCharacter;
     //---------------------------
     public Health health;
-    public VisualElement container;
+
 
     //---------------------------
     public Fisicas fisicas;
@@ -21,7 +21,7 @@ public class Mediador : MonoBehaviour
 
     void Awake()
     {
-        //health.Configuration(this, container);
+        health.Configuration(this);
         recibirControles.Configuration(this);
         fisicas.Configuración(this, characterController);
         animationCharacter.Configuration(this);

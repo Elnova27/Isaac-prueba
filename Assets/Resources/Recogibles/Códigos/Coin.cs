@@ -8,7 +8,7 @@ public class Coin : Pickup
     {
         Player.AddCoin(rewardValue);
         //throw new System.NotImplementedException();
-        SelfDestroy();
+        animatorManager.Picking();
     }
     
 }
