@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1988106770772313575}
   - component: {fileID: 6791888166986969392}
   - component: {fileID: 3008025746923720279}
+  - component: {fileID: 8681981983571677092}
+  - component: {fileID: 7260937679772448728}
   m_Layer: 0
   m_Name: PennySprite
   m_TagString: Untagged
@@ -88,7 +90,44 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8681981983571677092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934676986723763078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24fc04503e7863e4f90548e5bd33cb49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimatorManager
+  animator: {fileID: 7260937679772448728}
+  pickup: {fileID: 6945338553300273033}
+--- !u!95 &7260937679772448728
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934676986723763078}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 49fa48e84af630d45830046e939d58ef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2564776504592178106
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,5 +196,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Penny
   Player: {fileID: 0}
+  animatorManager: {fileID: 8681981983571677092}
   obtainable: 1
   rewardValue: 10

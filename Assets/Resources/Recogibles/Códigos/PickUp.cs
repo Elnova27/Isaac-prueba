@@ -13,13 +13,14 @@ public enum PickupEnum
 public abstract class Pickup : MonoBehaviour
 {
     public Mediador Player;
+    public AnimatorManager animatorManager;
     public bool obtainable = true;
 
     public int rewardValue = 1;
     protected abstract PickupEnum pickupEnum { get;}
     void Start()
     {
-        
+        animatorManager.Appear();
     }
 
     // Update is called once per frame
@@ -41,6 +42,7 @@ public abstract class Pickup : MonoBehaviour
         if (Player != null && CheckPickup() && obtainable == true)
         {
             GiveReward();
+            animatorManager.Picking();
             obtainable = false;
         }
     }
@@ -60,7 +62,10 @@ public abstract class Pickup : MonoBehaviour
     }
 
     protected abstract void GiveReward();
-
+    public virtual void AlreadyPicked()
+    {
+        SelfDestroy();
+    }
     protected virtual void SelfDestroy()
     {
         Destroy(gameObject);

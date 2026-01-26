@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class RecibirControles : MonoBehaviour
 {
-    private Mediador mediador;
+    public Mediador mediador;
 
     public InputAction Movimiento = null;
     public InputAction Bomba = null;
@@ -12,7 +12,7 @@ public class RecibirControles : MonoBehaviour
     public InputAction Alternar = null;
     public InputAction Mapa = null;
 
-    public void Configuración(Mediador mediadorRecibido)
+    public void Configuration(Mediador mediadorRecibido)
     {
         mediador = mediadorRecibido;
     }

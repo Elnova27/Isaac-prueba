@@ -9,8 +9,8 @@ public enum MovementState
 
 public class Fisicas : MonoBehaviour
 {
-    private Mediador mediador;
-    private CharacterController characterController;
+    public Mediador mediador;
+    public CharacterController characterController;
     
     public float hActual;
     public float vActual;

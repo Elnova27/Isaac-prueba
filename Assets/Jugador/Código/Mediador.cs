@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Mediador : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class Mediador : MonoBehaviour
     public Animation animationCharacter;
     //---------------------------
     public Health health;
+    public VisualElement container;
+
     //---------------------------
     public Fisicas fisicas;
     public CharacterController characterController;
@@ -16,10 +19,10 @@ public class Mediador : MonoBehaviour
     public Inventory inventory;
 
 
-    void Start()
+    void Awake()
     {
-        health.Configuration(this);
-        recibirControles.Configuración(this);
+        //health.Configuration(this, container);
+        recibirControles.Configuration(this);
         fisicas.Configuración(this, characterController);
         animationCharacter.Configuration(this);
     }
