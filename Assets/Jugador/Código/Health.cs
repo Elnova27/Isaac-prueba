@@ -4,6 +4,7 @@ using UnityEngine.UIElements;
 
 public class Health : MonoBehaviour
 {
+    public int maxHealth = 24;
     public int maxHearts = 6;
     public int currentHearts = 4;
     public int soulHearts = 0;
@@ -27,22 +28,52 @@ public class Health : MonoBehaviour
         DrawHealth();
     }
 
-    //public List<Heart> heartList = new List<Heart>();
-
-    public void AddHeart(Heart heart)
+    public void HealRedHeart(int amount)
     {
-        //heartList.Add(heart);
+        currentHearts += amount;
+        if (currentHearts > maxHearts)
+        {
+            currentHearts = maxHearts;
+        }
+        DrawHealth();
     }
+
+    public void HealSoulHeart(int amount)
+    {
+        soulHearts += amount;
+        DrawHealth();
+    }
+
+    public void Damage(int damage)
+    {
+        if (soulHearts > 0)
+        {
+            int damageToSoul = Mathf.Min(damage, soulHearts);
+            soulHearts -= damageToSoul;
+            damage -= damageToSoul;
+        }
+
+        if (damage > 0)
+        {
+            currentHearts -= damage;
+            if (currentHearts < 0)
+            {
+                currentHearts = 0;
+            }
+        }
+        DrawHealth();
+    }
+
+    // public void AddHeart(Heart heart)
+    // {
+    //     //heartList.Add(heart);
+    // }
 
     public bool CanReceiveRedHeart()
     {
-        //for(int i = 0; i > heartList.Count; i++)
-        //{
-        //    //if(heartList[i].)
-        //}
-
-        return(false);
+        return currentHearts < maxHearts;
     }
+    
     public void DrawHealth()
     {
         container.Clear();

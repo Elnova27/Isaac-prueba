@@ -58,10 +58,10 @@ public class Mediador : MonoBehaviour
         
     }
 
-    public bool CanReceiveRedHeart()
-    {
-        return(health.CanReceiveRedHeart());
-    }
+    // public bool CanReceiveRedHeart()
+    // {
+    //     return(health.CanReceiveRedHeart());
+    // }
 
     public void EnviarEjes(float h, float v)
     {
