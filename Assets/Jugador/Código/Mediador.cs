@@ -55,7 +55,15 @@ public class Mediador : MonoBehaviour
 
     public void HealRedHeart(int value)
     {
-        
+        health.HealRedHeart(value);
+    }
+    public void HealSoulHeart(int value)
+    {
+        health.HealSoulHeart(value);
+    }
+    public bool CanReceiveRedHeart()
+    {
+        return health.CanReceiveRedHeart();
     }
 
     // public bool CanReceiveRedHeart()

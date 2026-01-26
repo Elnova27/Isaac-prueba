@@ -40,6 +40,7 @@ public class Health : MonoBehaviour
 
     public void HealSoulHeart(int amount)
     {
+        print("alma");
         soulHearts += amount;
         DrawHealth();
     }
@@ -77,7 +78,7 @@ public class Health : MonoBehaviour
     public void DrawHealth()
     {
         container.Clear();
-        for (int i = 2; i < currentHearts; i += 2)
+        for (int i = 2; i <= currentHearts; i += 2)
         {
             VisualElement heart = heartFullTemplate.Instantiate();
             container.Add(heart);
@@ -95,7 +96,7 @@ public class Health : MonoBehaviour
             container.Add(emptyHeart);
         }
 
-        for (int i = 2; i < soulHearts; i += 2)
+        for (int i = 2; i <= soulHearts; i += 2)
         {
             VisualElement soulHeart = heartSoulTemplate.Instantiate();
             container.Add(soulHeart);

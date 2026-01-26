@@ -5,7 +5,7 @@ public enum PickupEnum
 {
     Bomb,
     DoubleBomb,
-    Heart,
+    RedHeart,
     Key,
     
     Penny
