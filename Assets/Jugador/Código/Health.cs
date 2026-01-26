@@ -40,7 +40,6 @@ public class Health : MonoBehaviour
 
     public void HealSoulHeart(int amount)
     {
-        print("alma");
         soulHearts += amount;
         DrawHealth();
     }
