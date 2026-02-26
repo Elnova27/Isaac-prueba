@@ -1888,7 +1888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Vida
   maxHealth: 24
   maxHearts: 8
-  currentHearts: 8
+  currentHearts: 7
   soulHearts: 0
   healthbarUI: {fileID: 831680044}
   heartFullTemplate: {fileID: 9197481963319205126, guid: cd7025926c92cf549ba051bdad7d18f9, type: 3}
